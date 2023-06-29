@@ -42,7 +42,7 @@ Follow these steps to set up and run the eVisa Service:
 
 3. Install backend dependencies:
    ```
-   cd backend
+   cd server
    npm install
    ```
 
@@ -57,7 +57,7 @@ Follow these steps to set up and run the eVisa Service:
 
 6. Install frontend dependencies:
    ```
-   cd ../frontend
+   cd ../client
    npm install
    ```
 
@@ -74,8 +74,16 @@ Follow these steps to set up and run the eVisa Service:
 
 ## Testing
 
-Testing modules can be found in the `backend/tests/` directory. To run the tests, use the following command from the backend directory:
+Testing modules can be found in the `server/tests/` directory. To run the tests, use the following command from the backend directory:
 
 ```
 npm test
+```
+
+## Note
+
+Use the following command to install node_modules:
+
+```
+npm install
 ```
