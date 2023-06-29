@@ -1,6 +1,5 @@
 import express from 'express';
 import mongoose from 'mongoose';
-import {MongoClient} from 'mongodb';
 import cors from "cors";
 import dotenv from 'dotenv';
 
@@ -30,18 +29,14 @@ app.use('/interview', interviewRouter);
 app.use('/visa', visaRouter);
 app.use('/contact', contactRoute);
 
-const client = new MongoClient(process.env.MONGODB_URL)
-client.connect();
 
-const dbName = "eVisaService";
-const database = client.db(dbName);
-
-// const mongodbUrl = process.env.MONGODB_URL;
-// mongoose.connect(mongodbUrl, {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true
-// }
-// )
+//database connection
+const mongodbUrl = process.env.MONGODB_URL;
+mongoose.connect(mongodbUrl, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+}
+)
 
 const port =  process.env.PORT;
 
