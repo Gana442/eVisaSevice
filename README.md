@@ -72,16 +72,6 @@ Follow these steps to set up and run the eVisa Service:
 
 9. Access the eVisa Service in your browser at the specified URL (default is `http://localhost:3000`).
 
-## Folder Structure
-
-The project's folder structure is as follows:
-
-- `backend/`: Contains the server-side code, including routes, controllers, and models.
-- `frontend/`: Contains the client-side code, including React components and styles.
-- `public/`: Holds static files that are served publicly.
-- `config/`: Includes configuration files for the backend.
-- `utils/`: Contains utility functions and modules.
-
 ## Testing
 
 Testing modules can be found in the `backend/tests/` directory. To run the tests, use the following command from the backend directory:
@@ -89,17 +79,3 @@ Testing modules can be found in the `backend/tests/` directory. To run the tests
 ```
 npm test
 ```
-
-Customize the tests as per your project requirements.
-
-## Contributing
-
-Contributions to the eVisa Service project are welcome. If you want to contribute, please follow the guidelines and best practices defined in the repository. Create an issue or contact the project maintainers for major changes or additions.
-
-## License
-
-Include the license information and any relevant details regarding the licensing of the project.
-
-## Additional Information
-
-Feel free to include any additional information, instructions, or details that are specific to your eVisa Service project and would be helpful for other developers working with the code.
