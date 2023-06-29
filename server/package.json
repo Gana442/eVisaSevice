@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
-    "dev": "nodemon index.js"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
@@ -25,7 +24,6 @@
     "nodemailer": "^6.9.1",
     "nodemon": "^2.0.21",
     "openai": "^3.2.1",
-    "razorpay": "^2.8.6",
-    "svg-captcha": "^1.4.0"
+    "razorpay": "^2.8.6"
   }
 }
