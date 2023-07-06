@@ -2,9 +2,9 @@
 
 The eVisa Service is a web-based project that utilizes the MERN (MongoDB, Express.js, React.js, Node.js) stack for development. It provides a platform for managing and processing electronic visa applications. The project consists of three main modules: Admin, HR Executive, and User/Applicant.
 
-## Project Demo Url
+## Demo
 
-https://evisaservice.onrender.com/
+Check out the live demo of the Calculator React App: [Demo Link](https://evisaservice.onrender.com/)
 
 ## Features
 
